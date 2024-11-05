@@ -1,0 +1,100 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+img {
+    height: 100px;
+    width:100px;
+    
+}
+ 
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px ; 
+    margin: 5px;
+    
+}
+.left {
+    background-image: url(123.jpg);
+    width: 50%;
+    padding: 50px;
+    margin: 20px;
+}
+.right {
+    width: 50%;
+    padding: 40px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 600px;
+    width: 600px;
+}
+h1{
+    font-size: 50px;
+    padding-left: 70px;
+}
+button {
+   padding: 10px;
+   background-color: rgb(47, 88, 132);
+   color: white;
+   border-radius: 20px 0 20px 0;
+   outline: none;
+    
+}
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(47, 88, 132) ;
+    
+    
+}
+ 
+    
+
+button:hover  {
+    background-color:blue;
+}
+.menu a:hover{
+    color: blue;
+}
+.ig{
+    
+    height: 20px;
+    width: 20px;
+}
+.more {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px ;
+
+}
+.info a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px ; 
+    margin: 5px;
+}
+.info a:hover{
+    color: white;
+}
+.icon {
+    margin-left: 30px;
+}
+.copyright {
+    width: 50%;
+    justify-items: end;
+    margin-left: 100px;
+}
